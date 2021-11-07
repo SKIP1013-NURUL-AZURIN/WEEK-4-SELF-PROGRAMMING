@@ -1,0 +1,27 @@
+package selfProgramming;
+import java.util.Scanner;
+class SpecifierSlide9 { //identifier: name of a class, variable, constant and method
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = 10;
+		double y = 5.373123;
+		double price1 , price2 , price3;
+		double total;
+		
+		System.out.printf("Value of x is %d and value of y is %3.2f%n" , x , y);
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter price of first item : ");
+		price1 = sc.nextDouble();
+		System.out.println("Enter price of second item : ");
+		price2 = sc.nextDouble();
+		System.out.println("Enter price of third item : ");
+		price3 = sc.nextDouble();
+		
+		total = price1 + price2 + price3;
+		System.out.printf("Total price : %10.2f" , total);
+	}
+
+}
