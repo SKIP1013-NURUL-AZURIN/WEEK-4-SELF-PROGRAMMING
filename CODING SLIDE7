@@ -1,0 +1,22 @@
+package selfProgramming;
+
+class Slide7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int dollars = 20; //assignment conversion (slide7)
+		double money = dollars;  
+		
+		int count = 12;  //promotion(slide8)
+		double sum = 490.27;   
+		double result; 
+		
+		System.out.println(dollars);
+		System.out.println(money);
+		
+		result = sum / count;
+		System.out.printf("Result : %.2f " , result);
+
+	}
+
+}
