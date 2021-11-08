@@ -1,0 +1,14 @@
+Enter an integer : 
+23
+Enter Double value : 
+33.33
+Using nextInt() : 23
+Using nextDouble() : 33.33
+Using nextInt() increment by 1 : 24
+Using nextDouble() decrement by 1: 32.33
+Using nextInt() increment by 5 : 30
+Using nextDouble() decrement by 5 : 26.33
+Using nextInt() mod 10 : 0
+Using nextDouble() mod 10 : 6.329999999999998
+The result is 15
+0.0
