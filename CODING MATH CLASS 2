@@ -16,7 +16,11 @@ class MathClass2 {
 		        //Compare two float numbers  
 		        float p = -25.74f;  
 		        float q = -20.38f;  
-		        System.out.println(Math.min(p, q));  
+		        System.out.println(Math.min(p, q)); 
+			
+			//pick random number from 0 to 150
+			int randomNum = (int)(Math.random() * 151);  // 0 to 150
+		        System.out.println(randomNum);
 		
 	}
 
