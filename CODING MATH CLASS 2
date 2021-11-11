@@ -1,0 +1,23 @@
+package selfProgramming;
+
+class MathClass2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub 
+		        int x = 20;  
+		        int y = 50;  
+		        System.out.println(Math.max(x, y)); 
+		        
+		        //Compare two double number  
+		        double a = 25.67;  
+		        double b = -38.67;  
+		        System.out.println(Math.max(a, b));  
+		        
+		        //Compare two float numbers  
+		        float p = -25.74f;  
+		        float q = -20.38f;  
+		        System.out.println(Math.min(p, q));  
+		
+	}
+
+}
